@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="-636.9181923516393" y="-223.99755416320548">Database</node>
+    <node x="-611.7866971759678" y="-64.85372150493204">Forms</node>
+    <node x="-814.8041655078987" y="-124.73407400152408">Entities</node>
+    <node x="-415.2445612693306" y="-154.42694325157322">Services</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Compact" zoom="1.5" showDependencies="false" x="-530.5" y="-119.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

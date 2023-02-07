@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace pref="150" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="TotalWithdrawCashLabel" min="-2" pref="79" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="WithdrawSpinner" pref="108" max="32767" attributes="0"/>
+                                  <Component id="WithdrawButton" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="Kwota" min="-2" pref="91" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="PLN200Label" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PLN100Label" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PLN500Label" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="PLN100Text" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PLN200Text" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PLN500Text" linkSize="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="PLN20Label" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PLN50Label" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="PLN20Text" linkSize="1" alignment="0" pref="35" max="32767" attributes="0"/>
+                                      <Component id="PLN50Text" linkSize="1" alignment="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="PLN10Label" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="PLN10Text" linkSize="1" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Component id="jScrollPane7" alignment="1" min="-2" pref="110" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="150" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="27" pref="27" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      <Component id="Kwota" min="-2" pref="22" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="WithdrawSpinner" min="-2" pref="33" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="WithdrawButton" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PLN10Label" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="PLN10Text" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PLN20Label" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="PLN20Text" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PLN50Label" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="PLN50Text" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PLN100Label" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="PLN100Text" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="PLN200Label" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                          <Component id="PLN200Text" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="PLN500Label" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="PLN500Text" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="34" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="TotalWithdrawCashLabel" min="-2" pref="37" max="-2" attributes="0"/>
+                  <Component id="jScrollPane7" min="-2" pref="37" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="40" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JSpinner" name="WithdrawSpinner">
+      <Properties>
+        <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+          <SpinnerModel initial="0" maximum="20000" minimum="0" numberType="java.lang.Integer" stepSize="10" type="number"/>
+        </Property>
+        <Property name="focusable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="WithdrawButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wyp&#x142;a&#x107;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="WithdrawButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PLN10Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10 PLN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PLN20Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="20 PLN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PLN50Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="50 PLN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PLN100Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="100 PLN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PLN200Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="200 PLN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PLN500Label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="500 PLN"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TotalWithdrawCashLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wyp&#x142;acono:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="TotalText">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JFormattedTextField" name="PLN10Text">
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="PLN20Text">
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="PLN50Text">
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="PLN100Text">
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="PLN200Text">
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="PLN500Text">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Kwota">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Wpisz kwot&#x119;"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
